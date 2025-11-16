@@ -110,6 +110,7 @@ return
 ^6::Run "C:\Users\tukee\AppData\Local\Programs\Bitwarden\Bitwarden.exe"
 ^7::Run "shell:Appsfolder\Microsoft.WindowsAlarms_8wekyb3d8bbwe!App"
 ^8::Run "onenote-cmd://"
+
 >!2::
 {
     url := "https://partner.microsoft.com/en-us/dashboard/commerce2/customers/list"
