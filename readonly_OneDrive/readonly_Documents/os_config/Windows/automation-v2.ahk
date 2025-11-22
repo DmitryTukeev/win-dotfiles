@@ -109,7 +109,7 @@ return
 ^5::Run "C:\Program Files (x86)\Citrix\ICA Client\SelfServicePlugin\SelfService.exe"
 ^6::Run "C:\Users\tukee\AppData\Local\Programs\Bitwarden\Bitwarden.exe"
 ^7::Run "shell:Appsfolder\Microsoft.WindowsAlarms_8wekyb3d8bbwe!App"
-^8::Run "onenote-cmd://"
+;^8::Run "onenote-cmd://"
 
 >!2::
 {
