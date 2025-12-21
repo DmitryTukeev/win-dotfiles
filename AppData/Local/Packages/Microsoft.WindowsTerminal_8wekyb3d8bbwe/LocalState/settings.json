@@ -60,20 +60,20 @@
     "keybindings": 
     [
         {
-            "id": "User.closePane",
-            "keys": "ctrl+shift+w"
-        },
-        {
-            "id": "User.paste",
-            "keys": "ctrl+v"
+            "id": "Terminal.MoveFocusLeft",
+            "keys": "ctrl+h"
         },
         {
             "id": "User.find",
             "keys": "ctrl+shift+f"
         },
         {
-            "id": "Terminal.MoveFocusLeft",
-            "keys": "ctrl+h"
+            "id": "User.paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "id": "User.closePane",
+            "keys": "ctrl+shift+w"
         },
         {
             "id": "Terminal.MoveFocusRight",
@@ -110,6 +110,10 @@
         {
             "id": "User.newTab.F4C304FB",
             "keys": "ctrl+shift+4"
+        },
+        {
+            "id": "User.newTab.F4C304FB",
+            "keys": "ctrl+shift+n"
         }
     ],
     "newTabMenu": 
