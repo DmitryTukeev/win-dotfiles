@@ -1,5 +1,4 @@
 shell:startup
 regedit
 gpedit.msc
-msconfig
 mrt
