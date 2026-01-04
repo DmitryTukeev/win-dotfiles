@@ -1,4 +1,4 @@
-; my shortcuts
+; My shortcuts
 
 CapsLock::LControl
 
@@ -14,8 +14,12 @@ CapsLock::LControl
 <^!9::Send "{{}"
 <^!0::Send "{}}"
 
-<^1::Send "#^{Left}"
-<^2::Send "#^{Right}"
+;Tabs & workspaces
+
+<^<!1::Send "#^{Left}"
+<^<!2::Send "#^{Right}"
+<!w::Send "^{Tab}"
+<!q::Send "^+{Tab}"
 
 <!1::Send "#5"
 <!2::Send "#6"
@@ -37,28 +41,26 @@ CapsLock::LControl
 <!+t::Send "^+{t}"
 <!d::Send "{Backspace}"
 <!+d::Send "{Del}"
-<!w::Send "^{Tab}"
-<!q::Send "^+{Tab}"
 <!m::Send "^+{Esc}"
 #q::Send "!{F4}"
 
-; numpad
+; Numpad
 																		
-<!<+m::Send "{Numpad1}"		
-<!<+,::Send "{Numpad2}"
-<!<+.::Send "{Numpad3}"
-<!<+j::Send "{Numpad4}"
-<!<+k::Send "{Numpad5}"
-<!<+l::Send "{Numpad6}"
-<!<+u::Send "{Numpad7}"
-<!<+i::Send "{Numpad8}"
-<!<+o::Send "{Numpad9}"
-<!<+Space::Send "{Numpad0}"
-<!<+;::Send "{+}"
-<!<+p::Send "{-}"
+<!<^m::Send "{Numpad1}"		
+<!<^,::Send "{Numpad2}"
+<!<^.::Send "{Numpad3}"
+<!<^j::Send "{Numpad4}"
+<!<^k::Send "{Numpad5}"
+<!<^l::Send "{Numpad6}"
+<!<^u::Send "{Numpad7}"
+<!<^i::Send "{Numpad8}"
+<!<^o::Send "{Numpad9}"
+<!<^Space::Send "{Numpad0}"
+<!<^;::Send "{+}"
+<!<^p::Send "{-}"
 
 
-; vim style cursor movement
+; Vim style cursor movement
 
 <!h::Send "{LEFT}"         ; ALT + h                   ->    LEFT                (Cursor left one character)
 <!^h::Send "^{LEFT}"       ; ALT + CTRL + h            ->    CTRL + LEFT         (Cursor left per word)
@@ -88,7 +90,7 @@ CapsLock::LControl
 <!+i::Send "+{PgDn}"       ; ALT + SHIFT + i           ->    SHIFT + PgDn         (Select down one paragraph)
 
 
-; switching between windows of the same application
+; Switching between windows of the same application
 
 <!`::
 { ; V1toV2: Added bracket
@@ -102,22 +104,26 @@ If WinActive("ahk_exe Explorer.EXE") {
 return
 } ; V1toV2: Added bracket in the end
 
-; run shortcuts
+; Run shortcuts
 
-^3::Run "C:\Users\tukee\Documents\Hiddify-Windows-Portable-x64\hiddify-next\Hiddify.exe"
-^4::Run "C:\Program Files\Remote Desktop\msrdcw.exe"
-^5::Run "C:\Program Files (x86)\Citrix\ICA Client\SelfServicePlugin\SelfService.exe"
-^6::Run "C:\Users\tukee\AppData\Local\Programs\Bitwarden\Bitwarden.exe"
-^7::Run "shell:Appsfolder\Microsoft.WindowsAlarms_8wekyb3d8bbwe!App"
-^8:: {
+<^3::Run "C:\Users\tukee\Documents\Hiddify-Windows-Portable-x64\hiddify-next\Hiddify.exe"
+<^4::Run "C:\Program Files\Remote Desktop\msrdcw.exe"
+<^5::Run "C:\Program Files (x86)\Citrix\ICA Client\SelfServicePlugin\SelfService.exe"
+<^6::Run "C:\Users\tukee\AppData\Local\Programs\Bitwarden\Bitwarden.exe"
+<^7::Run "shell:Appsfolder\Microsoft.WindowsAlarms_8wekyb3d8bbwe!App"
+<^8:: {
     appPath := "shell:appsFolder\Microsoft.YourPhone_8wekyb3d8bbwe!App"
     Run("explorer " appPath)
 }
 
->!2::
-{
-    url := "https://partner.microsoft.com/en-us/dashboard/commerce2/customers/list"
-        Send ">^l"
-        Send url
-	Send "{Enter}"
-}
+; Quick links
+
+;>!1::
+;{
+;    url := "https://support.mont.ru/sd/operator/#uuid:employee$2493902!%7B%22tab%22:%22ff4503fc-140c-0416-0000-ffffffffc80e7f4a%22%7D"
+;        Send ">^l"
+;        SendInput("{Text}" url)
+;	Send "{Enter}"
+;}
+
+
