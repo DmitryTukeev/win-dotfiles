@@ -46,18 +46,18 @@ CapsLock::LControl
 
 ; Numpad
 																		
-<!<^m::Send "{Numpad1}"		
-<!<^,::Send "{Numpad2}"
-<!<^.::Send "{Numpad3}"
-<!<^j::Send "{Numpad4}"
-<!<^k::Send "{Numpad5}"
-<!<^l::Send "{Numpad6}"
-<!<^u::Send "{Numpad7}"
-<!<^i::Send "{Numpad8}"
-<!<^o::Send "{Numpad9}"
-<!<^Space::Send "{Numpad0}"
-<!<^;::Send "{+}"
-<!<^p::Send "{-}"
+<^<+m::Send "{Numpad1}"		
+<^<+,::Send "{Numpad2}"
+<^<+.::Send "{Numpad3}"
+<^<+j::Send "{Numpad4}"
+<^<+k::Send "{Numpad5}"
+<^<+l::Send "{Numpad6}"
+<^<+u::Send "{Numpad7}"
+<^<+i::Send "{Numpad8}"
+<^<+o::Send "{Numpad9}"
+<^<+Space::Send "{Numpad0}"
+<^<+;::Send "{+}"
+<^<+p::Send "{-}"
 
 
 ; Vim style cursor movement
