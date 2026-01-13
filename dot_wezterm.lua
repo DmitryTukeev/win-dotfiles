@@ -5,19 +5,8 @@ local wezterm = require 'wezterm'
 local config = wezterm.config_builder()
 
 -- Window settings
-wezterm.on("gui-startup", function(cmd)
-  local screen            = wezterm.gui.screens().active
-  local ratio             = 0.6
-  local width, height     = screen.width * ratio, screen.height * ratio
-  local tab, pane, window = wezterm.mux.spawn_window {
-    position = {
-      x = (screen.width - width) / 2,
-      y = (screen.height - height) / 2,
-      origin = 'ActiveScreen' }
-  }
-  -- window:gui_window():maximize()
-  window:gui_window():set_inner_size(width, height)
-end)
+config.initial_cols = 160
+config.initial_rows = 45
 
 -- Autostart PowerShell
 config.default_prog = { 'pwsh.exe' }
@@ -40,6 +29,14 @@ config.keys = {
     mods = 'CTRL|ALT|',
     action = wezterm.action.SplitVertical { domain = 'CurrentPaneDomain' },
   },
+  {
+    key = 'n',
+    mods = 'CTRL|ALT',
+    action = wezterm.action.SpawnCommandInNewTab {
+        domain = { DomainName = 'WSL:Debian' },
+        cwd    = "~",
+    },
+  },
   -- {
   --   key = 'h',
   --   mods = 'CTRL',
@@ -60,14 +57,6 @@ config.keys = {
   --   mods = 'CTRL',
   --   action = wezterm.action.ActivatePaneDirection 'Right',
   -- },
-  {
-    key = 'n',
-    mods = 'CTRL|ALT',
-    action = wezterm.action.SpawnCommandInNewTab {
-        domain = { DomainName = 'WSL:Debian' },
-        cwd    = "~",
-    },
-  },
 }
 
 -- Finally, return the configuration to wezterm:
