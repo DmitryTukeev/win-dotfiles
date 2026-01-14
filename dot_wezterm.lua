@@ -5,6 +5,7 @@ local wezterm = require 'wezterm'
 local config = wezterm.config_builder()
 
 -- Window settings
+config.window_decorations = "RESIZE"
 config.initial_cols = 160
 config.initial_rows = 45
 
