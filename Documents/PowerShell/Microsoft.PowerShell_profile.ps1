@@ -1,4 +1,10 @@
 oh-my-posh init pwsh --config C:\Users\tukee\Documents\PowerShell\omp_win_conf.toml | Invoke-Expression
+
+Set-PSReadLineOption -Colors @{
+    "Parameter" = "White" # The flags (e.g., -Force)
+    "Operator"  = "White"   # Pipe |, equal =, etc.
+}
+
 function c {
 	clear
 }
@@ -28,6 +34,9 @@ function f {
 }
 function v {
 	nvim	
+}
+function lg {
+	lazygit	
 }
 function ssh-sel {
   ssh -p 2222 sel@localhost
