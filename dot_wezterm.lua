@@ -9,6 +9,30 @@ config.window_decorations = "RESIZE"
 config.initial_cols = 160
 config.initial_rows = 45
 
+-- Center WezTerm Window on Startup
+wezterm.on('gui-startup', function(cmd)
+  local tab, pane, window = wezterm.mux.spawn_window(cmd or {})
+  
+  -- Get the graphical window object
+  local gui_window = window:gui_window()
+  
+  local screen = wezterm.gui.screens().active
+  
+  if screen then
+    local dimensions = gui_window:get_dimensions()
+    
+    local center_x = (screen.width - dimensions.pixel_width) / 2
+    local center_y = (screen.height - dimensions.pixel_height) / 2
+    
+    -- Reposition the window to the center
+    gui_window:set_position(center_x, center_y)
+    
+    -- Tell the OS to un-minimize the window (if applicable) and force focus
+    gui_window:restore()
+    gui_window:focus()
+  end
+end)
+
 -- Autostart PowerShell
 config.default_prog = { 'pwsh.exe' }
 
