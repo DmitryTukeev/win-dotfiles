@@ -38,26 +38,26 @@ config.keys = {
         cwd    = "~",
     },
   },
-  -- {
-  --   key = 'h',
-  --   mods = 'CTRL',
-  --   action = wezterm.action.ActivatePaneDirection 'Left',
-  -- },
-  -- {
-  --   key = 'j',
-  --   mods = 'CTRL',
-  --   action = wezterm.action.ActivatePaneDirection 'Down',
-  -- },
-  -- {
-  --   key = 'k',
-  --   mods = 'CTRL',
-  --   action = wezterm.action.ActivatePaneDirection 'Up',
-  -- },
-  -- {
-  --   key = 'l',
-  --   mods = 'CTRL',
-  --   action = wezterm.action.ActivatePaneDirection 'Right',
-  -- },
+  {
+    key = 'h',
+    mods = 'CTRL|SHIFT|ALT',
+    action = wezterm.action.ActivatePaneDirection 'Left',
+  },
+  {
+    key = 'j',
+    mods = 'CTRL|SHIFT|ALT',
+    action = wezterm.action.ActivatePaneDirection 'Down',
+  },
+  {
+    key = 'k',
+    mods = 'CTRL|SHIFT|ALT',
+    action = wezterm.action.ActivatePaneDirection 'Up',
+  },
+  {
+    key = 'l',
+    mods = 'CTRL|SHIFT|ALT',
+    action = wezterm.action.ActivatePaneDirection 'Right',
+  },
 }
 
 -- Finally, return the configuration to wezterm:
