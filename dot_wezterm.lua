@@ -45,12 +45,12 @@ config.color_scheme = 'OneHalfDark'
 config.keys = {
   {
     key = 'l',
-    mods = 'CTRL|ALT',
+    mods = 'CTRL|SHIFT|ALT',
     action = wezterm.action.SplitHorizontal { domain = 'CurrentPaneDomain' },
   },
   {
     key = 'j',
-    mods = 'CTRL|ALT',
+    mods = 'CTRL|SHIFT|ALT',
     action = wezterm.action.SplitVertical { domain = 'CurrentPaneDomain' },
   },
   {
@@ -63,22 +63,22 @@ config.keys = {
   },
   {
     key = 'h',
-    mods = 'CTRL|SHIFT|ALT',
+    mods = 'CTRL|ALT',
     action = wezterm.action.ActivatePaneDirection 'Left',
   },
   {
     key = 'j',
-    mods = 'CTRL|SHIFT|ALT',
+    mods = 'CTRL|ALT',
     action = wezterm.action.ActivatePaneDirection 'Down',
   },
   {
     key = 'k',
-    mods = 'CTRL|SHIFT|ALT',
+    mods = 'CTRL|ALT',
     action = wezterm.action.ActivatePaneDirection 'Up',
   },
   {
     key = 'l',
-    mods = 'CTRL|SHIFT|ALT',
+    mods = 'CTRL|ALT',
     action = wezterm.action.ActivatePaneDirection 'Right',
   },
 }
