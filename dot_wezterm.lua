@@ -28,6 +28,7 @@ wezterm.on('gui-startup', function(cmd)
     gui_window:restore()
     gui_window:focus()
   end
+  -- Tell the OS to un-minimize the window (if applicable) and force focus
   if window then
     window:spawn_tab {
       domain = { DomainName = 'WSL:Debian' },
