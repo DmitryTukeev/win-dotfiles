@@ -111,7 +111,7 @@ return
 ;    Run("explorer " appPath)
 ;}
 <^3::Run "C:\Users\tukee\Documents\Hiddify-Windows-Portable-x64\hiddify-next\Hiddify.exe"
-<^4::Run "C:\Program Files\WindowsApps\MicrosoftCorporationII.Windows365_2.0.1069.0_x64__8wekyb3d8bbwe\Windows365.exe"
+<^4::Run "C:\Program Files\WindowsApps\MicrosoftCorporationII.Windows365_2.0.1070.0_x64__8wekyb3d8bbwe\Windows365.exe"
 <^5::Run "C:\Program Files (x86)\Citrix\ICA Client\SelfServicePlugin\SelfService.exe"
 <^6::Run "C:\Users\tukee\AppData\Local\Programs\Bitwarden\Bitwarden.exe"
 <^7::Run "shell:Appsfolder\Microsoft.WindowsAlarms_8wekyb3d8bbwe!App"
