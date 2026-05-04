@@ -6,9 +6,11 @@ CapsLock::LControl
 <^[::Send "{Esc}"
 +RButton::Send "{Enter}"
 <^/::Send "{?}"
-<^.::Send "{:}"
-<^m::Send "^+{1}"
-<^,::Send "^+{2}"
+<^;::Send "{:}"
+<^,::Send "{,}"
+<^.::Send "{.}"
+<!m::Send "^+{1}"
+<!,::Send "^+{2}"
 <^9::Send "{[}"
 <^0::Send "{]}"
 <^!9::Send "{{}"
@@ -41,7 +43,6 @@ CapsLock::LControl
 <!+t::Send "^+{t}"
 <!d::Send "{Backspace}"
 <!+d::Send "{Del}"
-<!m::Send "^+{Esc}"
 #q::Send "!{F4}"
 
 ; Numpad
