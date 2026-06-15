@@ -23,13 +23,6 @@ CapsLock::LControl
 <!w::Send "^{Tab}"
 <!q::Send "^+{Tab}"
 
-<!1::Send "#5"
-<!2::Send "#6"
-<!3::Send "#7"
-<!4::Send "#8"
-<!5::Send "#9"
-<!6::Send "#0"
-
 <!a::Send "^{a}"
 <!s::Send "^{s}"
 <!z::Send "^{z}"
@@ -106,25 +99,7 @@ return
 } ; V1toV2: Added bracket in the end
 
 ; Run shortcuts
-<^1::Run "C:\Program Files\Duplicati 2\Duplicati.GUI.TrayIcon.exe"
-;<^2:: {
-;    appPath := "shell:appsFolder\Microsoft.YourPhone_8wekyb3d8bbwe!App"
-;    Run("explorer " appPath)
-;}
-<^3::Run "C:\Users\tukee\Documents\Hiddify-Windows-Portable-x64\hiddify-next\Hiddify.exe"
-<^4::Run "shell:AppsFolder\MicrosoftCorporationII.Windows365_8wekyb3d8bbwe!Windows365"
-<^5::Run "C:\Program Files (x86)\Citrix\ICA Client\SelfServicePlugin\SelfService.exe"
-<^6::Run "C:\Users\tukee\AppData\Local\Programs\Bitwarden\Bitwarden.exe"
-<^7::Run "shell:Appsfolder\Microsoft.WindowsAlarms_8wekyb3d8bbwe!App"
-
-; Quick links
-
-;>!1::
-;{
-;    url := "https://support.mont.ru/sd/operator/#uuid:employee$2493902!%7B%22tab%22:%22ff4503fc-140c-0416-0000-ffffffffc80e7f4a%22%7D"
-;        Send ">^l"
-;        SendInput("{Text}" url)
-;	Send "{Enter}"
-;}
-
-
+!1::Run "C:\Users\tukee\Documents\Hiddify-Windows-Portable-x64\hiddify-next\Hiddify.exe"
+!2::Run "shell:AppsFolder\MicrosoftCorporationII.Windows365_8wekyb3d8bbwe!Windows365"
+!3::Run "C:\Users\tukee\AppData\Local\Programs\Bitwarden\Bitwarden.exe"
+!4::Run "shell:Appsfolder\Microsoft.WindowsAlarms_8wekyb3d8bbwe!App"
