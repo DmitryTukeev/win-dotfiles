@@ -2,6 +2,7 @@
 
 #q::Send "!{F4}"
 +RButton::Send "{Enter}"
++LButton::Send "{ESC}"
 
 ; Switching between windows of the same application
 
