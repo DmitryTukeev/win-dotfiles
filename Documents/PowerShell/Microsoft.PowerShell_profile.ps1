@@ -39,10 +39,10 @@ function lg {
 	lazygit	
 }
 function ssh-sel {
-  ssh -p 2222 sel@localhost
+  ssh -p 2222 dtukeev@localhost
 }
 function ssh-sel2 {
-  ssh -p 2223 sel2@localhost
+  ssh -p 2223 dtukeev@localhost
 }
 function vl {
   VBoxManage list vms
