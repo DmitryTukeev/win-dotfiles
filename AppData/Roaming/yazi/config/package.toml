@@ -1,0 +1,12 @@
+[[plugin.deps]]
+use = "dedukun/bookmarks"
+rev = "9ef1254"
+hash = "fc77f2bd3aad78199fbe11b727b1954f"
+
+[[plugin.deps]]
+use = "MasouShizuka/projects"
+rev = "22a4006"
+hash = "be696e23f797e9c426f6e62bd7b46928"
+
+[flavor]
+deps = []
