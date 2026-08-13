@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PuntoSwitcherSettings version="11">
+    <PuntoHotkeys>585,1609,0,0,1865,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</PuntoHotkeys>
+    <LayoutSwitchKey>5</LayoutSwitchKey>
+    <SeparateLangCombination>1</SeparateLangCombination>
+    <TransparentFormsFiller>0</TransparentFormsFiller>
+    <CheckForUpdate>Yes</CheckForUpdate>
+    <RunAtStartup>Yes</RunAtStartup>
+    <DontConvertCapitals>Yes</DontConvertCapitals>
+    <ChangeIconClrOnMisprint>Yes</ChangeIconClrOnMisprint>
+    <ShowCurLayoutInWndIcon>No</ShowCurLayoutInWndIcon>
+    <ShowPopupOnException>Yes</ShowPopupOnException>
+    <ExceptionCount>2</ExceptionCount>
+    <FixTwoUpperLetters>No</FixTwoUpperLetters>
+    <FixInvertedCase>No</FixInvertedCase>
+    <ShowLayoutFlags>No</ShowLayoutFlags>
+    <OneKeySwitchLayoutEnabled>No</OneKeySwitchLayoutEnabled>
+    <BinarySwitchLayout>No</BinarySwitchLayout>
+    <DisablePreHandle>Yes</DisablePreHandle>
+    <AllSoundsEnabled>No</AllSoundsEnabled>
+    <FirstLaunch>No</FirstLaunch>
+    <SeparateLangKeysEnabled>No</SeparateLangKeysEnabled>
+    <ShowQuickWordsListInLeftBtnMenu>Yes</ShowQuickWordsListInLeftBtnMenu>
+    <DontReactOnOtherLangs>Yes</DontReactOnOtherLangs>
+    <SingleLayout>No</SingleLayout>
+    <ShowTooltips>Yes</ShowTooltips>
+    <EnableDiary>No</EnableDiary>
+    <DiarySkipSepWords>Yes</DiarySkipSepWords>
+    <ScrollAsCaps>No</ScrollAsCaps>
+    <HidePopIndicAfterLayoutChange>No</HidePopIndicAfterLayoutChange>
+    <PSWorks>Yes</PSWorks>
+    <DisableHotKeysWhenTurnedOff>No</DisableHotKeysWhenTurnedOff>
+    <FixPopupIndicator>No</FixPopupIndicator>
+    <ShowUsefulTips>No</ShowUsefulTips>
+    <EnableIntelliMenus>No</EnableIntelliMenus>
+    <AutoReplaceAlways>No</AutoReplaceAlways>
+    <TurnOffDiaryInProgExceptions>Yes</TurnOffDiaryInProgExceptions>
+    <ShowFormsFiller>No</ShowFormsFiller>
+    <ReplaceOnEnterAndTab>Yes</ReplaceOnEnterAndTab>
+    <ReplaceOnSpace>Yes</ReplaceOnSpace>
+    <DontShowTranslitWin>Yes</DontShowTranslitWin>
+    <FullUnhookWhenDisabled>Yes</FullUnhookWhenDisabled>
+    <EnableClipboardHistory>No</EnableClipboardHistory>
+    <PersistentClipboardHistory>No</PersistentClipboardHistory>
+    <AutoSaveClipboardToDiary>No</AutoSaveClipboardToDiary>
+    <EnableMouseEmulation>No</EnableMouseEmulation>
+    <DisableCapsLock>No</DisableCapsLock>
+    <DisableAutoSaveClipboardToDiaryInProgExceptions>Yes</DisableAutoSaveClipboardToDiaryInProgExceptions>
+    <PopupIndicatorPos>CPoint(300, 300)</PopupIndicatorPos>
+    <FormsFillerRect>CRect(100, 100, 350, 500)</FormsFillerRect>
+    <RestrictKeysEnabled>Yes,Yes,Yes,Yes,Yes,Yes,Yes</RestrictKeysEnabled>
+    <MinDiaryRecordWords>1</MinDiaryRecordWords>
+    <CurrentAdviceNum>0</CurrentAdviceNum>
+    <DontSwitchOnOtherLangs>Yes</DontSwitchOnOtherLangs>
+    <Sounds>C:\Program Files (x86)\Yandex\Punto Switcher\Sounds\typerus.wav,C:\Program Files (x86)\Yandex\Punto Switcher\Sounds\typeeng.wav,C:\Program Files (x86)\Yandex\Punto Switcher\Sounds\switch.wav,C:\Program Files (x86)\Yandex\Punto Switcher\Sounds\misprint.wav,C:\Program Files (x86)\Yandex\Punto Switcher\Sounds\ru.wav,C:\Program Files (x86)\Yandex\Punto Switcher\Sounds\en.wav,C:\Program Files (x86)\Yandex\Punto Switcher\Sounds\reverse.wav,C:\Program Files (x86)\Yandex\Punto Switcher\Sounds\switch.wav,C:\Program Files (x86)\Yandex\Punto Switcher\Sounds\switch.wav,C:\Program Files (x86)\Yandex\Punto Switcher\Sounds\switch.wav,C:\Program Files (x86)\Yandex\Punto Switcher\Sounds\switch.wav,C:\Program Files (x86)\Yandex\Punto Switcher\Sounds\switch.wav,C:\Program Files (x86)\Yandex\Punto Switcher\Sounds\switch.wav,C:\Program Files (x86)\Yandex\Punto Switcher\Sounds\switch.wav,C:\Program Files (x86)\Yandex\Punto Switcher\Sounds\switch.wav,C:\Program Files (x86)\Yandex\Punto Switcher\Sounds\replace.wav</Sounds>
+    <SoundsStates>98304003,131072003,163840002,45875203,65536003,131072003,131072002,131072002,131072002,131072002,131072002,98304002,111411203,124518403,32768003,26214402</SoundsStates>
+    <AskF12Support>No</AskF12Support>
+    <ShowLayoutFlagsAlwaysInColor>No</ShowLayoutFlagsAlwaysInColor>
+    <DoubleBackSpaceAction>0</DoubleBackSpaceAction>
+    <ShareHotKeyForUndoConvertAndSelectionConvert>No</ShareHotKeyForUndoConvertAndSelectionConvert>
+    <DiarySaveDays>0</DiarySaveDays>
+    <DetectPasswords>Yes</DetectPasswords>
+    <RunAtStartupElevated>No</RunAtStartupElevated>
+    <WantsBeta>No</WantsBeta>
+    <DontUpdateConfig>No</DontUpdateConfig>
+    <FolderExceptions />
+    <ProgramsExceptions>C:\Program Files\WindowsApps\10186emoacht.Monitorian_4.0.1.0_neutral__0q7myvhtpbc7w\MonitorianPlus\MonitorianPlus.exe,C:\Users\tukee\AppData\Local\AutoControl\AutoCtrl_2022.10.18.0.exe,C:\Program Files\Docker\Docker\frontend\Docker Desktop.exe,C:\Users\tukee\AppData\Local\Programs\AutoHotkey\v2\AutoHotkey64.exe,C:\Program Files\Oracle\VirtualBox\VirtualBoxVM.exe,C:\Users\tukee\AppData\Local\Programs\Microsoft VS Code\Code.exe,C:\Program Files\Alacritty\alacritty.exe,C:\Program Files\WezTerm\wezterm-gui.exe,C:\Users\tukee\AppData\Local\Programs\Obsidian\Obsidian.exe,C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.23.13503.0_x64__8wekyb3d8bbwe\WindowsTerminal.exe,C:\Program Files\Vim\vim91\gvim.exe,C:\Users\tukee\AppData\Local\Programs\Zed\Zed.exe</ProgramsExceptions>
+    <TitlesExceptions>PowerShell,MONT VDI</TitlesExceptions>
+</PuntoSwitcherSettings>
