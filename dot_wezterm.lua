@@ -4,6 +4,9 @@ local wezterm = require 'wezterm'
 -- This will hold the configuration.
 local config = wezterm.config_builder()
 
+-- Enable CSI-u key encoding for proper shortcut handling in Tmux/Neovim
+config.enable_csi_u_key_encoding = true
+
 -- Window settings
 -- config.window_decorations = "RESIZE" -- commented out for RDM window
 config.initial_cols = 160
