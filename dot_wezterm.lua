@@ -8,7 +8,7 @@ local config = wezterm.config_builder()
 config.enable_csi_u_key_encoding = true
 
 -- Window settings
--- config.window_decorations = "RESIZE" -- commented out for RDM window
+config.window_decorations = "RESIZE" -- commented out for RDM window
 config.initial_cols = 160
 config.initial_rows = 45
 
