@@ -28,7 +28,7 @@
     <DiarySkipSepWords>Yes</DiarySkipSepWords>
     <ScrollAsCaps>No</ScrollAsCaps>
     <HidePopIndicAfterLayoutChange>No</HidePopIndicAfterLayoutChange>
-    <PSWorks>No</PSWorks>
+    <PSWorks>Yes</PSWorks>
     <DisableHotKeysWhenTurnedOff>No</DisableHotKeysWhenTurnedOff>
     <FixPopupIndicator>No</FixPopupIndicator>
     <ShowUsefulTips>No</ShowUsefulTips>
