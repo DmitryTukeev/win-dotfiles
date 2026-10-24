@@ -99,8 +99,11 @@ return
 } ; V1toV2: Added bracket in the end
 
 ; Run shortcuts
-!1::Run "C:\Users\tukee\Documents\Hiddify\Hiddify.exe"
-!2::Run "shell:AppsFolder\MicrosoftCorporationII.Windows365_8wekyb3d8bbwe!Windows365"
-!3::Run "C:\Users\tukee\AppData\Local\Programs\Bitwarden\Bitwarden.exe"
+!1::Send "#4"
+!2::Send "#5"
+!3::Send "#6"
+;C:\Users\tukee\Documents\Hiddify\Hiddify.exe"
+;!2::Run "shell:AppsFolder\MicrosoftCorporationII.Windows365_8wekyb3d8bbwe!Windows365"
+;!3::Run "C:\Users\tukee\AppData\Local\Programs\Bitwarden\Bitwarden.exe"
 !4::Run "shell:Appsfolder\Microsoft.WindowsAlarms_8wekyb3d8bbwe!App"
 
